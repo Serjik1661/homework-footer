@@ -1,0 +1,71 @@
+.footer{
+    color: white;
+    background-color: rgb(44, 44, 128);
+    padding: 20px;
+}
+.navigationFooter{
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid white;
+}
+.navigation-item{
+    list-style: none;
+    margin-bottom: 10px;
+}
+.navigation-item a {
+    text-decoration: none;
+    color: white;
+}
+.contactList{
+    padding: 10px;
+    margin: auto 0;
+}
+.contactItems{
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 15px;
+}
+.contactItem{
+    padding: 0;
+    margin: 0;
+}
+.imgUrlFacebook{
+    padding: 15px;
+    background-image: url(./img/facebook.png);
+    background-size: cover;
+    border-radius: 10px;
+}
+.imgUrlInst{
+    padding: 15px;
+    background-image: url(./img/free-icon-instagram-1384031.png);
+    background-size: cover;
+    border-radius: 10px;
+}
+.imgUrlYoutob{
+    padding: 15px;
+    background-image: url(./img/youtube.png);
+    background-size: cover;
+    border-radius: 10px;
+}
+.copyright{
+    text-align: center;
+}
+
+.navigation-item a:hover{
+    border-bottom: 1px solid white;
+    transition: all 0.7s;
+}
+.imgUrlYoutob:hover{
+    background-color: rgb(230, 221, 221);
+    transition: all 0.7s;
+}
+.imgUrlInst:hover{
+    background-color: rgb(230, 221, 221);
+    transition: all 0.7s;
+}
+.imgUrlFacebook:hover{
+    background-color: rgb(230, 221, 221);
+    transition: all 0.7s;
+}
